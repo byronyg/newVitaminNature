@@ -122,7 +122,7 @@ export default function ProductDetails() {
 
             <div className="flex flex-col justify-start full mt-10 pr-30px even:pr-0">
               <span className="text-gray-500 text-11px mb-2">
-                Flavor/ Scent
+                Flavor/ Scent / Ingredients
               </span>
               <span className="font-normal text-13px text-gray-900 capitalize">
                 {state.item.substance}

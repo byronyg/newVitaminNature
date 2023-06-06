@@ -6,6 +6,11 @@ function getConfig(config) {
 
 module.exports = getConfig({
   images: {
-    domains: ["s3.amazonaws.com", "scontent.cdninstagram.com", "i.pinimg.com"],
+    domains: [
+      "s3.amazonaws.com",
+      "scontent.cdninstagram.com",
+      "i.pinimg.com",
+      "cdn.shopify.com",
+    ],
   },
 });
