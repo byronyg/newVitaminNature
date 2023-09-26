@@ -106,7 +106,7 @@ export default function Checkout() {
               Contact Information
             </span>
             <PatternFormat
-              format="+1 (###) ###-####"
+              format="(####s) ###-###"
               mask="_"
               placeholder="Mobile Phone Number"
               className={`${InputBase} ${TextBoxCommonBase} ${TextBoxEnable}`}
